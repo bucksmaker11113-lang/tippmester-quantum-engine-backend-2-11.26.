@@ -1,0 +1,30 @@
+# ============================================================
+# TIPP-MESTER QUANTUM ENGINE - Requirements
+# Unified, conflict-free dependency list
+# ============================================================
+
+# A projekt helyi moduljainak importálása
+-e .
+
+# Alap könyvtárak
+numpy
+pandas
+
+# ML / DL keretrendszerek (VERZIÓ ÜTKÖZÉS NÉLKÜL)
+tensorflow
+torch
+
+# Függőségek modellekhez
+scikit-learn
+
+# Adatkezelés és struktúrák
+pydantic
+
+# Statisztika, hibakezelés, egyéb
+scipy
+
+# Ha OCR engine szükséges:
+pillow
+
+# Ha GNN engine használja (opcionális):
+networkx
